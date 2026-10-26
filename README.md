@@ -15,7 +15,6 @@ The positive class is **closed** (label 1), because missing a closed eye is the 
 .
 ├── train_model.py                 # train + evaluate the CNN
 ├── realtime_detection_cnn.py      # local real-time webcam detection
-├── colab_webcam_after_training.py # Google Colab webcam version (paste cells into a notebook)
 ├── requirements.txt
 └── README.md
 ```
@@ -132,6 +131,3 @@ The classes are imbalanced (about 76% open), so precision, recall and F1 for the
 - The train/validation/test split is random per image, so images of the same person may appear in more than one split. This can make the test scores optimistic compared with unseen people and real webcams.
 - This is a learning and research project and **must not be relied on for real driver safety**.
 
-## License
-
-Add a license of your choice (for example MIT) before publishing.
